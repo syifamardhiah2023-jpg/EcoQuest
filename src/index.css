@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Natural Tones custom color palette mapping */
+  --color-natural-bg: #fdfbf7;
+  --color-natural-text: #2d3a2e;
+  --color-natural-heading: #1a2e1d;
+  --color-natural-primary: #4a6d4d;
+  --color-natural-secondary: #8a9a8c;
+  --color-natural-soft: #f0f4ef;
+  --color-natural-border: #e5e9e2;
+  --color-natural-accent: #b47c5d;
+  --color-natural-accent-light: #fffdfa;
+  --color-natural-accent-border: #f5ece0;
+}
+
+/* Custom scrollbars for clean minimal panels */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #e7e5e4;
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #d6d3d1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EcoQuest",
+  "description": "Kampanye hidup minim sampah, edukasi sustainability dengan pelacak reduksi sampah harian, game sortir, peta lokasi daur ulang, forum komunitas, papan peringkat, dan sistem poin reward.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
